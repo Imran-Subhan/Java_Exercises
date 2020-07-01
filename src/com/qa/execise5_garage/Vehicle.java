@@ -13,6 +13,7 @@ public class Vehicle {
 	public int year;
 	public String colour;
 	public int speed;
+	public String model;
 	
 	
 	
@@ -20,8 +21,9 @@ public class Vehicle {
 		super();
 	}
 
-	public Vehicle(int wheels, int year, String colour, int speed) {
+	public Vehicle(String model, int wheels, int year, String colour, int speed) {
 		super();
+		this.model = model;
 		this.wheels = wheels;
 		this.year = year;
 		this.colour = colour;
@@ -58,6 +60,14 @@ public class Vehicle {
 
 	public void setSpeed(int speed) {
 		this.speed = speed;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
 	}
 	
 	
