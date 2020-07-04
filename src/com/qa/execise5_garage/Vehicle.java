@@ -15,10 +15,7 @@ public class Vehicle {
 	public int speed;
 	public String model;
 	
-	
-	
 	public Vehicle() {
-		super();
 	}
 
 	public Vehicle(String model, int wheels, int year, String colour, int speed) {
